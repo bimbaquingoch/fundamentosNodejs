@@ -23,3 +23,25 @@
 ### Lo peligroso de que Node sea monohilo es que si ocurre un error, se detiene por completo el proceso!
 
 ## Variables de entorno
+
+> let web = process.env.WEB || "No hay web";
+
+> let variable = process.env.NOMBRE_DE_VARIABLE
+
+<hr/>
+
+### Nodemon y PM2
+
+| Nodemo               | PM2                    |
+| -------------------- | ---------------------- |
+| Para local           | Para producción        |
+| `nodemon archivo.js` | `pm2 start archivo.js` |
+
+```
+pm2 status
+pm2 monitor
+pm2 logs
+pm2 stop (id)
+pm2 stop 0, 1, 2 ...
+pm2 start 0, 1, 2 ...
+```
