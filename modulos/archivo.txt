@@ -1,0 +1,3 @@
+Red hola! a todos
+Yellow esto funciona?
+Blue veamos si se puede leer este archivo
