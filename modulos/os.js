@@ -31,12 +31,9 @@ console.log(`Directorio raiz: ${os.homedir()}`);
 console.log(`Directorio temporal: ${os.tmpdir()}`);
 console.log(`Nombre del host de la maquina: ${os.hostname()}`);
 console.log(`Interfaz de red: ${os.networkInterfaces()}`);
-<<<<<<< HEAD
 // user info
 console.log(`User info: ${os.userInfo()}`);
 console.log(`User info: ${os.userInfo().shell}`);
 console.log(`User info: ${os.userInfo().gid}`);
 console.log(`User info: ${os.userInfo().uid}`);
 console.log(`Uptime: ${os.release()}`);
-=======
->>>>>>> e089429c6ba5dc16de32edbf61473fb38f1a70ab
