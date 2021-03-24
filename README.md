@@ -45,3 +45,9 @@ pm2 stop (id)
 pm2 stop 0, 1, 2 ...
 pm2 start 0, 1, 2 ...
 ```
+
+## Datos almacenados y datos en memoria
+
+| Almacenados           | En memoria                 |
+| --------------------- | -------------------------- |
+| En disco es más lento | En memoria es súper rápido |
