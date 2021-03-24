@@ -1,0 +1,11 @@
+este
+es 
+el 
+archivo
+que 
+se 
+va 
+a 
+leer
+desde
+stream
